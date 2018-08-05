@@ -1,0 +1,8 @@
+name: gChat
+author: Gokus
+version: 0.1
+main: me.gokus.gchat.GChat
+commands:
+  gchat:
+    description: Zarzadzanie chatem.
+    aliases: [chat, czat]
