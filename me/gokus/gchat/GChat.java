@@ -13,8 +13,7 @@ public class GChat extends JavaPlugin {
         getConfig().addDefault("messages.perm", "&cNie masz uprawnien do tej komendy. (&7gchat.management&c)");
         getConfig().addDefault("messages.reloaded", "&aPomyslnie przeladowano plik konfiguracyjny!");
         getConfig().addDefault("messages.usage", "&7Aby poprawnie uzyc komendy wpisz &3/gchat <on/off/clear/reload> [powod]&7!");
-        getConfig().addDefault("messages.cleared.normal", "&aCzat zostal wyczyszczony przez &7{player}&a!");
-        getConfig().addDefault("messages.cleared.reason", "&aCzat zostal wyczyszczony przez &7{player}&a, powod &7{reason}&a!");
+        getConfig().addDefault("messages.cleared", "&aCzat zostal wyczyszczony przez &7{player}&a!");
         getConfig().addDefault("messages.enabled", "&cCzat jest juz wlaczony!");
         getConfig().addDefault("messages.disabled", "&cCzat jest juz wylaczony!");
         getConfig().addDefault("messages.disable.normal", "&aCzat zostal wylaczony przez &7{player}&a!");
